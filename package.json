@@ -2,19 +2,70 @@
   "name": "no-name",
   "license": "UNLICENSED",
   "dependencies": {
-    "@polymer/polymer": "3.2.0",
+    "@polymer/polymer": "3.4.1",
     "@webcomponents/webcomponentsjs": "^2.2.10",
-    "@vaadin/flow-deps": "./target/frontend"
+    "@vaadin/flow-deps": "./target/frontend",
+    "@vaadin/common-frontend": "0.0.17",
+    "construct-style-sheets-polyfill": "3.0.4",
+    "lit": "2.1.4",
+    "@vaadin/router": "1.7.4"
   },
   "devDependencies": {
-    "webpack": "4.30.0",
-    "webpack-cli": "3.3.10",
-    "webpack-dev-server": "3.9.0",
+    "webpack": "4.46.0",
+    "webpack-cli": "4.9.2",
+    "webpack-dev-server": "4.7.4",
     "webpack-babel-multi-target-plugin": "2.3.3",
     "copy-webpack-plugin": "5.1.0",
     "webpack-merge": "4.2.2",
     "raw-loader": "3.0.0",
-    "compression-webpack-plugin": "3.0.1"
+    "compression-webpack-plugin": "4.0.1",
+    "esbuild-loader": "2.15.1",
+    "css-loader": "5.2.7",
+    "file-loader": "6.2.0",
+    "fork-ts-checker-webpack-plugin": "6.2.1",
+    "extra-watch-webpack-plugin": "1.0.3",
+    "glob": "7.1.6",
+    "lit-css-loader": "0.1.0",
+    "loader-utils": "2.0.0",
+    "workbox-core": "6.5.0",
+    "html-webpack-plugin": "4.5.1",
+    "chokidar": "^3.5.0",
+    "workbox-precaching": "6.5.0",
+    "typescript": "4.5.3",
+    "extract-loader": "5.1.0",
+    "workbox-webpack-plugin": "6.5.0"
   },
-  "vaadinAppPackageHash": "a75bb208436936a4572f78609ed001be297895da7c8ceff8f1b5b52bfead3dd7"
+  "vaadinAppPackageHash": "a75bb208436936a4572f78609ed001be297895da7c8ceff8f1b5b52bfead3dd7",
+  "vaadin": {
+    "dependencies": {
+      "@vaadin/common-frontend": "0.0.17",
+      "construct-style-sheets-polyfill": "3.0.4",
+      "lit": "2.1.4",
+      "@vaadin/router": "1.7.4",
+      "@polymer/polymer": "3.4.1"
+    },
+    "devDependencies": {
+      "compression-webpack-plugin": "4.0.1",
+      "esbuild-loader": "2.15.1",
+      "webpack-cli": "4.9.2",
+      "css-loader": "5.2.7",
+      "file-loader": "6.2.0",
+      "fork-ts-checker-webpack-plugin": "6.2.1",
+      "extra-watch-webpack-plugin": "1.0.3",
+      "glob": "7.1.6",
+      "lit-css-loader": "0.1.0",
+      "loader-utils": "2.0.0",
+      "workbox-core": "6.5.0",
+      "webpack": "4.46.0",
+      "html-webpack-plugin": "4.5.1",
+      "chokidar": "^3.5.0",
+      "workbox-precaching": "6.5.0",
+      "typescript": "4.5.3",
+      "webpack-merge": "4.2.2",
+      "webpack-dev-server": "4.7.4",
+      "extract-loader": "5.1.0",
+      "workbox-webpack-plugin": "6.5.0"
+    },
+    "hash": ""
+  }
 }
